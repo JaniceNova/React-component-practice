@@ -5,12 +5,13 @@ const ApprovalCard = () => {
 
     return (
         <div className="ui cards">
-              <div className="card">
-                <div class="extra content">
-                    <div class="ui two buttons">
-                        <div class="ui basic green button">Approve
+              <div className="card"> Are you sure?
+                <div className="extra content">
+               
+                    <div className="ui two buttons">
+                        <div className="ui basic green button">Approve
                         </div>
-                        <div class="ui basic red button">Decline
+                        <div className="ui basic red button">Reject
                         </div>
                     </div>
                 </div>

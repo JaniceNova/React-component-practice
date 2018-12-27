@@ -7,8 +7,9 @@ import ApprovalCard from './ApprovalCard';
 const App = () => {
 
 return (
-<div className="ui container comments">
 
+<div className="ui container comments">
+<ApprovalCard />
 <CommentDetail 
     author="Sam" 
     timeAgo="Today 4:00pm" 
